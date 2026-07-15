@@ -1,2 +1,0 @@
-- [项目概述](project-overview.md) — 目录结构、当前状态、待处理事项
-- [记忆模块三层架构规划](memory-tier-plan.md) — 热/温/冷三层存储方案
