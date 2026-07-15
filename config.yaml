@@ -1,0 +1,25 @@
+# Redis 热缓存配置
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+  ttl: 3600
+
+# 数据库公共配置
+db:
+  host: 127.0.0.1
+  port: 3306
+  database: ai_test
+  charset: utf8mb4
+
+# LLM大模型公共配置
+llm:
+  base_url: https://api.deepseek.com/v1
+  model: deepseek-chat
+  temperature: 0.7
+  max_tokens: 2048
+  context_window: 4096
+
+# 服务端口
+server:
+  port: 8000

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/
+knowledge_base/.faiss_index/
+.vscode/
+.idea/
+*.egg-info/
+dist/
