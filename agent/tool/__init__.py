@@ -1,5 +1,4 @@
-from agent.tool.calculator import calculator
-from agent.tool.web_search import web_search
-from agent.tool.rag_search import rag_search
+# 工具模块 — 后续按需挂载到 Agent
+# 使用方式：from agent.tool import xxx, 然后 create_agent(tools=[xxx])
 
-__all__ = ["calculator", "web_search", "rag_search"]
+__all__: list = []
